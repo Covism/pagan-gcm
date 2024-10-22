@@ -1,7 +1,7 @@
 #This code was created by Kathy Chan. Credits to her!
 
-NAME = "DINGANI" #Enter name of the storm that you want to input
-YEAR = 2023 #Enter year that the storm takes place in.
+NAME = "ARLENE" #Enter name of the storm that you want to input
+YEAR = 2005 #Enter year that the storm takes place in.
 
 data_tc = pd.read_csv("202313S_Dingani_Track.txt", usecols=range(11), header=None)
 col_names = data_tc.columns
